@@ -1,0 +1,51 @@
+textarea {
+    min-height: 400px;
+}
+#message {
+	color: red;
+	opacity: 1;
+	transition: 1s opacity;
+	width: 100%;
+	padding: 10px 2px 10px 2px;
+}
+.inboxArchive{
+	width: 80%;
+	border: 2px solid #f2f2f2;
+	padding: 20px 0 10px 20px;
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+em {
+	float: right;
+	margin-right: 10px;
+	pointer-events: none;
+}
+a{
+	text-decoration: none;
+}
+.firstLin{
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+	pointer-events: none;
+}
+.inboxArchive:hover, .viewEmail:hover{
+	background-color: grey;
+	color: white;
+}
+.viewEmail {
+	width: 80%;
+	border: 2px solid #f2f2f2;
+	padding: 20px 0 10px 20px;
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	float: left;
+	color: black;
+	text-decoration: none;
+	background-color: #bfbfbf;
+}
